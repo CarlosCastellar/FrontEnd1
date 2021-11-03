@@ -1,0 +1,53 @@
+#foto {
+    width: 150px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+header {
+    background: #E6E6E6;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    background-color: #C4C4C4;
+    font-family: Times New Roman;
+    color: #005677;
+    font-size: 35px;
+}
+
+h2 {
+    font-family: Times New Roman;
+    color: #005677;
+    background-color: #C4C4C4;
+    font-size: 20px;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+footer {
+    background: #005677;
+    text-align: center;
+}
+
+#piePag {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logos {
+    width: 20px;
+    height: 20px;
+}
