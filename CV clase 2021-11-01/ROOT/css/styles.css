@@ -1,24 +1,36 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 #foto {
     width: 150px;
     height: 200px;
     border-radius: 30px;
 }
 
+button {
+    font-family: serif;
+    font-size: 20px;
+    color: #005677;
+    background-color: #C4C4C4;
+    font-style: italic;
+    font-weight: bold;
+}
+
 header {
-    background: #E6E6E6;
+    background-image: url(../img/Portada.jpg);
+    background-size: contain;
     text-align: center;
 }
 
 h1 {
     text-align: center;
     background-color: #C4C4C4;
-    font-family: Times New Roman;
     color: #005677;
     font-size: 35px;
 }
 
 h2 {
-    font-family: Times New Roman;
     color: #005677;
     background-color: #C4C4C4;
     font-size: 20px;
@@ -47,7 +59,8 @@ footer {
     font-weight: bold;
 }
 
-.logos {
-    width: 20px;
-    height: 20px;
+
+i {
+    font-size: 20px;
+    color: white;
 }
