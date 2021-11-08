@@ -1,0 +1,178 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+select  {
+    background-color: #222222;
+    color: #F3F3F3;
+    font-size: 10px;
+}
+
+#barraSuperior {
+    background: #222222;
+    height: 20px;
+    padding-left: 13%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#anuncio {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    color: #F3F3F3;
+}
+
+nav {
+    background: #F0A83E;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+#divCatDog {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    size: 20px;
+}
+
+.front, .CatDog {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+.front {
+    color: #3C2313;
+}
+
+.CatDog {
+    color: #FFFFFF;
+    padding-right: 2px;
+}
+
+.pawMenu {
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+
+.menu {
+    font-size: 13px;
+    color: #FFFFFF;
+    padding-left: 2px;
+}
+
+#banner {
+    background-image: url(../img/banner.png);
+    background-size: cover;
+    height: 409px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 12px;
+}
+
+#inBanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#saludoBanner {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    color: #3C2313;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 365px;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+#anuncioBanner {
+    font-size: 16px;
+    color: #3C2313;
+    text-align: center;
+}
+
+#buttonBanner {
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 141px;
+    height: 49px;
+}
+
+.pawMain {
+    color: #F0A83E;
+    font-size: 70px;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #3C2313;
+    margin-top: 9.51px;
+    margin-bottom: 20px;
+}
+
+div#menuMain span {
+    font-size: 15px;
+    color: #666666;
+}
+
+#mainSectionH1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-top: 49px;
+}
+
+section#productos div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section#productos img {
+    width: 265px;
+    height: 268.86px;
+}
+
+.nombreProducto {
+    font-weight: 500;
+    font-size: 15px;
+    color: #3C2313;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.precioProducto {
+    font-weight: 500;
+    font-size: 15px;
+    color: #F0A83E;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
