@@ -14,7 +14,16 @@
 <body>
     <section id="barraSuperior">
         <span id="anuncio">Grandes ofertas en comederos</span>
-        <span><select name="Idioma"><option>Español</option></select><select name="País"><option value="ARG$">ARG$</option></select></span>
+        <span>
+            <select name="Idioma">
+                <option>Español</option>
+                <option>Inglés</option>
+            </select>
+            <select name="País">
+                <option value="ARG$">ARG$</option>
+                <option value="COP$">COP$</option>
+            </select>
+        </span>
     </section>
     <nav>
         <div id="divCatDog">
@@ -66,7 +75,57 @@
                 <p class="precioProducto">$650</p>
             </div>
         </section>
-        <section></section>
+        <section id="formulario">
+            <h2>Contáctanos</h2>
+            <div id="inputs">
+                <input type="text" placeholder="Nombre y Apellido">
+                <input type="text" placeholder="Ingresá tu correo electrónico">
+                <input type="text" placeholder="Teléfono">
+            </div>
+            <div id="botones">
+                <button id="rastrear">Resetear</button>
+                <button id="enviar">Enviar</button>
+            </div>
+        </section>
     </main>
+    <section id="suscribir">
+        <div id="suscribeNovedades">
+            <img src="img/enviar-correo.png" alt="Email">
+            <p>Suscríbete para más novedades</p>
+        </div>
+        <div id="suscribeInput">
+            <input type="text" placeholder="Ingresá tu correo electronico">
+            <button>Suscribirme</button>
+        </div>
+    </section>
+    <section id="infoContacto">
+        <div id="contact">
+            <div id="contacIcons">
+                <img src="img/location.png" alt="Ubicacion">
+                <img src="img/Call.png" alt="telefono">
+                <img src="img/mail.png" alt="mail">
+            </div>
+            <div id="contacText">
+                <span>
+                    <h3>Localidad</h3>
+                    <p>Calle - provincia</p>
+                </span>
+                <span>
+                    <h3>Teléfono</h3>
+                    <p>Número de teléfono</p>
+                </span>
+                <span>
+                    <h3>Correo Electrónico</h3>
+                    <p>Dirección de correo</p>
+                </span>
+            </div>
+        </div>
+        <div>
+            <img src="img/Logo.png" alt="Logo">
+        </div>
+    </section>
+    <footer>
+        <p>Todos los derechos reservados Front End</p>
+    </footer>
 </body>
 </html>
