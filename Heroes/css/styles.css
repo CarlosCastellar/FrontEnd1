@@ -103,7 +103,6 @@ button {
 
 main {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     padding: 154px 32px 151px;
 }
