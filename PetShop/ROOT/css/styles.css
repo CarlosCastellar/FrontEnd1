@@ -124,6 +124,12 @@ img {
     padding-top: 20px;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h1 {
     font-size: 40px;
     color: #3C2313;
@@ -177,7 +183,11 @@ section#productos img {
     margin-bottom: 0px;
 }
 
-section#formulario h2 {
+form {
+    width: 340px;
+}
+
+#formulario h2 {
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
