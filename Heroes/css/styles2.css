@@ -150,3 +150,24 @@ footer {
     padding: 16px;
 }
 
+.password:hover, .nombre:hover {
+    border: 5px solid #2408bf;
+}
+
+.password:focus, .nombre:focus {
+background-color: #bcf8e2;
+}
+
+input:nth-child(1) {
+    color: #070471;
+}
+
+h2::first-letter {
+    color: #0c28ce;
+    font-size: 90px;
+}
+
+h2:after {
+    content: ":";
+    color: #0c28ce;
+}
