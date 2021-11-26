@@ -207,7 +207,7 @@ div#inputs {
     height: 140px;
 }
 
-div#inputs input {
+input.input {
     width: 340px;
     height: 40px;
     background-color: #3C2313;
@@ -230,7 +230,7 @@ div#inputs input {
     justify-content: center;
 }
 
-div#botones button {
+div#botones input {
     width: 110px;
     height: 34px;
     border-radius: 15px;
